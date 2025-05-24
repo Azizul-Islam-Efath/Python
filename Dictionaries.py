@@ -86,11 +86,40 @@ print("\n\n")
 A= myinfo.update({"Efath":"Efath is a SOFTWARE ENGINEER"})
 print("\nAfter using update method Efath's info : ",myinfo["Efath"])
 
+print("\n\n")
+
+#removing item
+
+myinfo.pop("Maria")
+print("After using pop method :\n")
+print("After poping :",myinfo)
+
+print("\n\n")
+
+#popitem
+myinfo.popitem()
+
+print("After using pop item method :\n")
+print("After popping item :",myinfo)
 
 
+print("\n\n")
 
+#Looop in dictionary
+print("Using myinfo.values to show only the values of the dictionary : \n")
+for i in myinfo.values():   #shows only the values
+     print(i)
 
+print("\n\n")
 
+# copy dictionary
+
+print("Copying dictionaries: \n ")
+
+my = myinfo.copy()  #  *******
+print("Myinfo: ",myinfo)
+print("my :",my)
+print("\n\n")
 
 
 
